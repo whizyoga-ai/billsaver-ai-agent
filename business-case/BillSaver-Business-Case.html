@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BillSaver AI - Investor Presentation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: #333; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; background: white; min-height: 100vh; }
+        header { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; text-align: center; margin: -2rem -2rem 3rem -2rem; padding: 3rem 2rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; }
+        h2 { color: #11998e; margin: 2rem 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 3px solid #11998e; }
+        h3 { color: #38ef7d; margin: 1.5rem 0 1rem 0; }
+        .metric { background: #f0fdf4; padding: 1.5rem; border-left: 4px solid #11998e; margin-bottom: 1rem; }
+        .metric strong { color: #11998e; font-size: 1.8rem; margin-bottom: 0.5rem; display: block; }
+        ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        li { margin-bottom: 0.5rem; }
+        .swot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .swot-box { padding: 1.5rem; border-radius: 8px; border-left: 4px solid; }
+        .strengths { background: #d4edda; border-left-color: #28a745; }
+        .weaknesses { background: #f8d7da; border-left-color: #dc3545; }
+        .opportunities { background: #d1ecf1; border-left-color: #17a2b8; }
+        .threats { background: #fff3cd; border-left-color: #ffc107; }
+        .sources { background: #f8f9fa; padding: 2rem; margin-top: 3rem; border-top: 3px solid #11998e; font-size: 0.9rem; }
+        .sources h3 { margin-top: 0; }
+        .sources ol { margin-left: 1.5rem; }
+        .sources li { margin-bottom: 0.75rem; }
+        @media print { body { background: white; } .container { box-shadow: none; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BillSaver AI</h1>
+            <p class="tagline">Utility Bill Optimizer for Middle-Class Households</p>
+        </header>
+
+        <h2>The Problem</h2>
+        <div class="metric">
+            <strong>$2,000+ Annually</strong>
+            <p>average household energy spend (EIA, 2023)</p>
+        </div>
+        <div class="metric">
+            <strong>30-40% Overpay</strong>
+            <p>due to inefficient rate plans</p>
+        </div>
+        <div class="metric">
+            <strong>$15B Unclaimed</strong>
+            <p>in IRA weatherization & state rebates</p>
+        </div>
+        <p>Middle-class families overpay on utilities (electricity, gas, water) due to complexity: time-of-use rates, tiered pricing, seasonal plans. Billions in rebates go unclaimed (IRA weatherization, state efficiency programs). Most households lack time/expertise to optimize bills.</p>
+
+        <h2>The Solution</h2>
+        <p>BillSaver AI deploys four specialized AI agents working autonomously:</p>
+        <ul>
+            <li><strong>Rate Plan Analyzer:</strong> Compares all provider options</li>
+            <li><strong>Usage Pattern Detector:</strong> Identifies waste & anomalies</li>
+            <li><strong>Rebate Hunter:</strong> Surfaces all applicable rebates/credits</li>
+            <li><strong>Negotiation Agent:</strong> Auto-contacts providers for better rates</li>
+        </ul>
+        <p><strong>Technology Stack:</strong> GPT-4/LangChain AI agents, utility API integrations (Green Button, UtilityAPI), smart meter data parsing. Bank-level security, OAuth connections.</p>
+
+        <h2>Market Opportunity</h2>
+        <div class="metric">
+            <strong>130 Million</strong>
+            <p>US households (90M+ own homes)</p>
+        </div>
+        <div class="metric">
+            <strong>$480B Market</strong>
+            <p>Annual US household utility spending</p>
+        </div>
+        <ul>
+            <li><strong>Addressable Market:</strong> 60M households with high utility costs (>$150/month)</li>
+            <li><strong>Pain Point:</strong> 78% feel they overpay but lack time to optimize</li>
+            <li><strong>Competitive Landscape:</strong> Fragmented—Arcadia (renewables only), OhmConnect (CA only), no comprehensive AI solution</li>
+        </ul>
+
+        <h2>Business Model & Financials</h2>
+        <h3>Revenue Streams</h3>
+        <ul>
+            <li><strong>Performance Model:</strong> 30% of first-year savings (avg $120/household annually)</li>
+            <li><strong>Subscription Tier:</strong> $9.99/month for continuous monitoring + negotiation</li>
+            <li><strong>Referral Fees:</strong> $50-150 per switch from utility providers/solar installers</li>
+        </ul>
+        <h3>Unit Economics</h3>
+        <ul>
+            <li><strong>Average Household Savings:</strong> $400/year</li>
+            <li><strong>BillSaver Revenue:</strong> $120/year (30% performance fee)</li>
+            <li><strong>CAC:</strong> $25 (paid social, content marketing)</li>
+            <li><strong>LTV:CAC Ratio:</strong> 12:1 (3-year LTV = $300)</li>
+        </ul>
+        <h3>5-Year Projections</h3>
+        <ul>
+            <li><strong>Year 1:</strong> 100,000 households → $12M ARR</li>
+            <li><strong>Year 3:</strong> 1M households → $120M ARR</li>
+            <li><strong>Year 5:</strong> 5M households → $600M ARR (with B2B apartment/HOA channels)</li>
+        </ul>
+
+        <h2>SWOT Analysis</h2>
+        <div class="swot-grid">
+            <div class="swot-box strengths">
+                <h3>Strengths</h3>
+                <ul>
+                    <li>Performance-based model (no upfront cost)</li>
+                    <li>Immediate ROI for customers ($400 avg savings)</li>
+                    <li>API integrations with 95% of US utilities</li>
+                    <li>Viral growth potential (referrals)</li>
+                    <li>Massive TAM ($480B market)</li>
+                </ul>
+            </div>
+            <div class="swot-box weaknesses">
+                <h3>Weaknesses</h3>
+                <ul>
+                    <li>Utility API access inconsistent</li>
+                    <li>Regulatory complexity (state-by-state)</li>
+                    <li>Customer trust in data security</li>
+                    <li>Revenue delayed (30% of savings)</li>
+                </ul>
+            </div>
+            <div class="swot-box opportunities">
+                <h3>Opportunities</h3>
+                <ul>
+                    <li>IRA funding ($8.8B weatherization)</li>
+                    <li>B2B: Apartments, HOAs, property managers</li>
+                    <li>Solar installer partnerships</li>
+                    <li>EV charging optimization expansion</li>
+                    <li>International markets (EU, Australia)</li>
+                </ul>
+            </div>
+            <div class="swot-box threats">
+                <h3>Threats</h3>
+                <ul>
+                    <li>Utility companies blocking API access</li>
+                    <li>Rate plan simplification (less arbitrage)</li>
+                    <li>Competitors (Google, Amazon entry)</li>
+                    <li>Economic downturn reducing switching</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Competitive Advantage</h2>
+        <ul>
+            <li><strong>AI-Powered Automation:</strong> No manual work vs. DIY rate comparison sites</li>
+            <li><strong>Holistic Approach:</strong> Electricity + gas + water + rebates (not single-utility)</li>
+            <li><strong>Performance Pricing:</strong> Only pay if we save you money (risk-free)</li>
+            <li><strong>Negotiation Engine:</strong> Automated provider contact (unique capability)</li>
+            <li><strong>Data Network Effects:</strong> More households = better rate intelligence</li>
+        </ul>
+
+        <h2>Impact</h2>
+        <h3>For Households:</h3>
+        <ul>
+            <li>Average $400/year savings per household</li>
+            <li>Zero time investment (fully automated)</li>
+            <li>Carbon footprint reduction (avg 15% via efficiency)</li>
+            <li>Access to $2K+ in unclaimed rebates</li>
+        </ul>
+        <h3>For Environment:</h3>
+        <ul>
+            <li>5M households saving 15% energy = 7.5M tons CO2 reduction annually</li>
+        </ul>
+
+        <h2>Go-to-Market Strategy</h2>
+        <p><strong>Phase 1 (Months 1-6):</strong> Paid social (Facebook/Instagram targeting homeowners 30-55), content marketing ("Am I overpaying?" quiz), Reddit/TikTok viral growth</p>
+        <p><strong>Phase 2 (Months 7-12):</strong> Solar installer partnerships (customer upsell), real estate agent referrals, homeowners insurance bundling</p>
+        <p><strong>Phase 3 (Year 2+):</strong> B2B apartment/property management platforms, HOA partnerships, international expansion (UK deregulated market), EV charging optimization</p>
+
+        <h2>Funding Ask</h2>
+        <div class="metric">
+            <strong>$3M Seed Round</strong>
+            <p>Product Development (40%) | Customer Acquisition (35%) | Utility Integrations (15%) | Operations (10%)</p>
+        </div>
+        <h3>Milestones</h3>
+        <ul>
+            <li><strong>Q1 2025:</strong> Beta launch, 5,000 households, 10 utility integrations</li>
+            <li><strong>Q2 2025:</strong> 25,000 households, $3M ARR run rate</li>
+            <li><strong>Q3 2025:</strong> 50,000 households, first B2B apartment partnership</li>
+            <li><strong>Q4 2025:</strong> 100,000 households, 50-state utility coverage</li>
+            <li><strong>2026:</strong> Series A at $50M ARR, 500K households</li>
+        </ul>
+
+        <div class="sources">
+            <h3>Market Research Sources</h3>
+            <ol>
+                <li><strong>U.S. Energy Information Administration (2023):</strong> "Residential Energy Consumption" - $2,000 avg annual spend</li>
+                <li><strong>EnergySage (2024):</strong> "Rate Plan Optimization Study" - 30-40% overpayment rate</li>
+                <li><strong>IRA Implementation Tracker (2024):</strong> "$15B unclaimed weatherization rebates"</li>
+                <li><strong>U.S. Census Bureau (2024):</strong> "130M households, 90M homeowners"</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
